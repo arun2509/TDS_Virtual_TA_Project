@@ -1,105 +1,94 @@
 import os
 import time
+import json
 import numpy as np
-import tiktoken
-import openai
+from pathlib import Path
+from tqdm import tqdm
 from dotenv import load_dotenv
+from openai import OpenAI
+from typing import List
+import tiktoken
 
-# Load environment variables
+# === Load env ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_base = os.getenv("OPENAI_BASE_URL")
+api_key = os.getenv("OPENAI_API_KEY")
+api_base = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+client = OpenAI(api_key=api_key, base_url=api_base)
 
-# === Rate Limiter ===
-class RateLimiter:
-    def __init__(self, requests_per_minute=60, requests_per_second=2):
-        self.requests_per_second = requests_per_second
-        self.requests_per_minute = requests_per_minute
-        self.request_times = []
-        self.last_request_time = 0
+# === Tokenizer for OpenAI ===
+encoding = tiktoken.encoding_for_model("text-embedding-3-small")
 
-    def wait_if_needed(self):
-        current_time = time.time()
-        time_since_last = current_time - self.last_request_time
+def count_tokens(text: str) -> int:
+    return len(encoding.encode(text))
 
-        if time_since_last < (1.0 / self.requests_per_second):
-            time.sleep((1.0 / self.requests_per_second) - time_since_last)
-
-        self.request_times = [t for t in self.request_times if current_time - t < 60]
-        if len(self.request_times) >= self.requests_per_minute:
-            wait_time = 60 - (current_time - min(self.request_times))
-            if wait_time > 0:
-                time.sleep(wait_time)
-
-        self.last_request_time = time.time()
-        self.request_times.append(self.last_request_time)
-
-ratelimiter = RateLimiter()
-
-# === CONFIG ===
-MAX_TOKENS = 500
-OVERLAP = 100
-DATA_DIRS = ["Course_content_jan_2025", "topics_md"]
-tokenizer = tiktoken.get_encoding("cl100k_base")
-
-# === Chunking ===
-def chunk_markdown_file(path):
-    with open(path, "r", encoding="utf-8") as f:
-        text = f.read()
-
-    tokens = tokenizer.encode(text)
+# === Safe chunking ===
+def split_markdown(text: str, chunk_size: int = 1500, chunk_overlap: int = 50) -> List[str]:
+    tokens = encoding.encode(text)
     chunks = []
-    i = 0
-    while i < len(tokens):
-        chunk = tokens[i:i + MAX_TOKENS]
-        decoded = tokenizer.decode(chunk)
-        chunks.append(decoded)
-        i += MAX_TOKENS - OVERLAP
-
+    start = 0
+    while start < len(tokens):
+        end = start + chunk_size
+        chunk = tokens[start:end]
+        chunks.append(encoding.decode(chunk))
+        start += chunk_size - chunk_overlap
     return chunks
 
-all_chunks = []
+# === Retry wrapper ===
+def get_embedding(text: str, max_retries=3) -> List[float]:
+    for attempt in range(max_retries):
+        try:
+            if attempt > 0:
+                time.sleep(2 ** attempt)
+            response = client.embeddings.create(
+                model="text-embedding-3-small",
+                input=text
+            )
+            return response.data[0].embedding
+        except Exception as e:
+            print(f"⚠️ Error: {e}. Retrying in {2**attempt}s...")
+            if attempt == max_retries - 1:
+                raise
+
+# === Load markdown files ===
+FOLDER_PATHS = ["Course_content_jan_2025", "topics_md"]
+OUTPUT_FILE = "embeddings_data.npz"
+
+print("📚 Collecting markdown files...")
+all_files = []
+for folder in FOLDER_PATHS:
+    all_files += list(Path(folder).rglob("*.md"))
+print(f"📄 Found {len(all_files)} markdown files")
+
+# === Chunking ===
+chunks = []
 metadata = []
-doc_map = {}  # source file → full content
+doc_map = {}
 
-print(f"🧠 Processing Markdown files from: {', '.join(DATA_DIRS)}...")
-for dir_name in DATA_DIRS:
-    for fname in os.listdir(dir_name):
-        if not fname.endswith(".md"):
-            continue
-        path = os.path.join(dir_name, fname)
-        chunks = chunk_markdown_file(path)
-        for chunk in chunks:
-            all_chunks.append(chunk)
-            metadata.append({"source": fname})
+for file in all_files:
+    with open(file, "r", encoding="utf-8") as f:
+        content = f.read()
+    file_chunks = split_markdown(content)
+    for i, chunk in enumerate(file_chunks):
+        chunks.append(chunk)
+        metadata.append({
+            "source": str(file),
+            "chunk_id": i
+        })
+    doc_map[str(file)] = content
 
-        # Save full file for later reconstruction
-        with open(path, "r", encoding="utf-8") as f:
-            doc_map[fname] = f.read()
+print(f"🧩 Total chunks to embed: {len(chunks)}")
 
-print(f"📄 Total chunks to embed: {len(all_chunks)}")
-
-# === Embed all chunks ===
+# === Embed with progress bar ===
 embeddings = []
-for i, chunk in enumerate(all_chunks):
-    ratelimiter.wait_if_needed()
-    print(f"🔢 Embedding chunk {i + 1}/{len(all_chunks)}")
-    response = openai.embeddings.create(
-        model="text-embedding-3-small",
-        input=chunk
-    )
-    embeddings.append(response.data[0].embedding)
+for chunk in tqdm(chunks, desc="🔢 Embedding Chunks"):
+    emb = get_embedding(chunk)
+    embeddings.append(emb)
 
-# === Rebuild docs list from metadata ===
-docs = []
-for m in metadata:
-    source = m["source"]
-    docs.append(doc_map.get(source, ""))  # fallback empty
-
-# === Save compressed embeddings ===
-np.savez_compressed("embeddings_data.npz",
-                    embeddings=np.array(embeddings).astype(np.float32),
+# === Save ===
+docs = [doc_map[m["source"]] for m in metadata]
+np.savez_compressed(OUTPUT_FILE,
+                    embeddings=np.array(embeddings, dtype=np.float32),
                     metadata=metadata,
                     docs=docs)
 
-print("✅ All embeddings and docs saved to embeddings_data.npz (compressed)")
+print(f"✅ Done! Saved to {OUTPUT_FILE}")

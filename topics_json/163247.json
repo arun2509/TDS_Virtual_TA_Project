@@ -1,0 +1,2470 @@
+{
+    "post_stream": {
+        "posts": [
+            {
+                "id": 584257,
+                "name": "VIKASH PRASAD",
+                "username": "21f3002277",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002277/{size}/12741_2.png",
+                "created_at": "2025-01-24T01:17:21.325Z",
+                "cooked": "<p>Q4. how to handle this error ? <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a></p>\n<pre><code class=\"lang-auto\">{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": [\n        {\"type\": \"text\", \"text\": \"Extract text from this image\"},\n        {\n          \"type\": \"image_url\",\n          \"image_url\": { \"url\": \"data:image/png;base64,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DOYQc83d7la67bar84q8XbP//qXbYYfS9YuJSdsaR+6nbLvsUsfWGWeU7n3vK93225du881L96Uvla4X6JP3+8X35P173KPeW77mwd12K92mm5bujW+sfVQ5+kX/ZNzvumvp+kXOanZa6KVeyqz8/cJ1UrfpuSOvvPLKK691+1rWM/UiPyLDokEPe1gp1752jYaJdvVOr/QOYhKV6x3UJDLXcGSlF9mld7aTiJBt38XSO9FJtEz02fa3yNdVrlLKXe5Sj9/YdhYNl6fImoi6yOed7lSjaragHaF46ENrNPl736vpeyFQeqc62SoXLRX9Ug/b7I78qIfomyi9yJ4ovnv2AmGSv8iX4yreEzkUlWcX+ftpK7t3ymdxm9vU4wei3yKM8h2D3dRZBE19+4VAudKV5j6cws6E6NxrXlMjbHe9a42GDukFwCTiLwpnO/+Rj6z2m4a9eqFUHve4GiV0nTqHsNIwLh05GY4P85D5qBfNk503O12i24udr0S8Rfnt8Pnc+DVOhuPctXZS+gXAJK37iNr3Yn0SDfe5a8whyvTyl9fovflDeey63fe+9ViOeUC+5gjjWEReOaVXN0d6+oXI5IiifO3APeQh9SiiHZ42j4q2mx/tNngtFrsadvfa/BlCCGHlsayintPYaqtSXvjCKlL9bbvYNjBnw7FxVqedVtOffnp1UEccUR3btttWB0hoNzgmDorod/SmHV0hwglbju/JTy7lEY+o29TuxcnJ2zEZIrhfzUxenKb3CFvHcjhc5eNELQo4T+WwnW3r3Ra1ow62vpVb3u5BuMuLo1W+612vlMMPr2W3pS5PL+J+ww3rVj+RrlzS7r9/KQ96UCkbbDBXyR5pLDIc/yEglHcM2/e22ZV1111XCYsx1IN9iZeddqr3bmdnm+0//ekqMHbeuQp/9T7wwCqGHvCAUp71rGpzP9lfWmW3SCF2iBcor8WLYwy77VbbcvvtSzn44LpAmsYC69BDa7r2evSj63GZ1j/mQ7scdVQVQO1aYu3446sAme4vjj886lHVbur8speVcthhdRFKgEE9LG4II/3KZyCKCCj97V73qvfae+9a91ZONhu7FmxicaiPKt+pp859MIdjF45GPP7xtW21i2MXjlYcdFA9EmI8WZgph7zYyZERotHRiPZyf+Vj95afoxePfeyq9w85ZLw9xrC4bNe213xt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u8WDcehevqFFP4N89S12sTg3P8h/DAsSbUzAa2NtpY+ab/R3/VAZlGVN5ivzhbpb7LKxvsuW7qeNzFe+KrKNafmbGyyEzQ36pHmEgCfS1U2ZlE1gwNgzBo1X+Rqn6ihw0fLV/7S7er3ylXWh6z35e1lUSMtGymtctP5rblAffYE9jTMP5hvr2mwabehBdu2hb3n+pbVHCCGEdc/6z+iZ+30R9J5zDeCEOCNb2y1SxBkMX8QTAeQnZzQNB+w6IpjAGDobwsJ1RI17EJTSi4o5KiE/ESwvQqaJT++7VnpOlMDg8OSvTMQgIShti5qrByEqL2mJGPcWfSNIiC9pOUjOVDpnpznT6Tq7H8HgGk6YEyUy50ur/mzkvsrN6fudIFUvkVR1mQ/p2cc95Dmd1t/qR0BZCBElykRsEBTqomzawAKC4PK58hNpIoUELQFMzItEawf3IrIJEW3CXkSUa7xEdC0MfO4lrfZodVdeUVR2bEK/CSeiSX6u0dZ+tnt6sZdrLQq0G7vJm4iRnl3dX1rl1fby8H4rp2vZTb2l0b6u97l+qAxso/8RWu5pgae9Wr8BMW4hpg677FLzcr2+wl7Ekn5EQOqbriWOjRll1j5NZLqXeiqrdmA35VGXVh79Vzptp96Qj/5i4el3+EwaaV2jTyuLhZI6EI3SKo/f3bONEfck+tlI2V3vxdbqp0+61qulN548N6HfqNOwLdm9oX3YktD2ub6u3Pog+zfkIW/9hG2kHYPd2YltXKMu+p1+RZy7lh3WdL5qc4Z2YBt1dQ/XmT/YZ1gvNvFSFnaSn3rpO+zo+jYvaW92kM41ymzMeVhXmZugl177yMtPZVEm5dMeFpDq4zN9zk+fqa+08tHX9Nv2z6XGBH1D2ZSTzZV92B4hhBDWLcsaqQ+zA4EpSuzbLU45pQovAp6wJ0LGFlzO4Ypc2zEQ+SMUnGUf23X5X8UCzy6Qc9QEn3+IRQgRRyGEEEIIS0VEfVgN0VPHPrxEAX0LjSiwiOE0jhE4AuIIgsikozSivqFGvD0E6Qy1o1L+dszDgieEEEIIYamJqA+r0b41gxh1BthZZed7HROaxvEIItU/9RGlF50fi+j/L+IM9xFH1HPRjo3sums9389OIYQQQghLTUR9GIW4d7beA4B+OkYyTTtfTtyH1fEQoqNJvlnEmWjnrJ0dDyGEEEJYDiLqQwghhBBCmHHyuF4IIYQQQggzTkR9CCGEEEIIM84aHr8JIYQQQgghrDQSqQ8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYcaJqA8hhBBCCGHGiagPIYQQQghhxomoDyGEEEIIYaYp5f8A91ro9coVvFcAAAAASUVORK5CYII=\" }\n        }\n      ]\n    }\n  ]\n}\n</code></pre>\n<p>Error: The image_url.url must be the base64 data URL of the image</p>",
+                "post_number": 23,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T01:17:21.325Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 3,
+                "reads": 273,
+                "readers_count": 272,
+                "score": 74.2,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "VIKASH PRASAD",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 11755,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/23",
+                "user_cakedate": "2022-02-08",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 584261,
+                "name": "VIKASH PRASAD",
+                "username": "21f3002277",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002277/{size}/12741_2.png",
+                "created_at": "2025-01-24T02:02:04.952Z",
+                "cooked": "<p>Q8. how to handle the error ? <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a></p>\n<p><a href=\"http://127.0.0.1:8000/execute?q=Expense+balance+for+emp+52094\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">http://127.0.0.1:8000/execute?q=Expense+balance+for+emp+52094</a></p>\n<p>{\u201cname\u201d: \u201cexpense_balance\u201d, \u201carguments\u201d: \u201c{\u201cemployee_id\u201d: 52094}\u201d}</p>\n<p>TypeError: Failed to fetch</p>",
+                "post_number": 24,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T02:02:04.952Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 254,
+                "readers_count": 253,
+                "score": 55.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "VIKASH PRASAD",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "link_counts": [
+                    {
+                        "url": "http://127.0.0.1:8000/execute?q=Expense+balance+for+emp+52094",
+                        "internal": false,
+                        "reflection": false,
+                        "clicks": 11
+                    }
+                ],
+                "read": true,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 11755,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/24",
+                "user_cakedate": "2022-02-08",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 584413,
+                "name": "Varad Rajadhyax ",
+                "username": "22f3000445",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/{size}/96290_2.png",
+                "created_at": "2025-01-24T08:17:52.778Z",
+                "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/d/1d37c6ff7591a3175f7be06068d9025f2627e65b.png\" data-download-href=\"/uploads/short-url/4atlDGnGzMrb1Ou6oj3ArTtpD7B.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/d/1d37c6ff7591a3175f7be06068d9025f2627e65b_2_690x314.png\" alt=\"image\" data-base62-sha1=\"4atlDGnGzMrb1Ou6oj3ArTtpD7B\" width=\"690\" height=\"314\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/d/1d37c6ff7591a3175f7be06068d9025f2627e65b_2_690x314.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/d/1d37c6ff7591a3175f7be06068d9025f2627e65b_2_1035x471.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/d/1d37c6ff7591a3175f7be06068d9025f2627e65b.png 2x\" data-dominant-color=\"1B2C29\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1366\u00d7622 27.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Why is my score is out of 8.5? It should be 9.5 right?<br>\nIt was 9.5 before a reload.</p>",
+                "post_number": 25,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T08:17:52.778Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 254,
+                "readers_count": 253,
+                "score": 55.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Varad Rajadhyax ",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "",
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 14644,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/25",
+                "user_cakedate": "2022-09-07",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 584421,
+                "name": "Sakthivel S",
+                "username": "23f2000237",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000237/{size}/66999_2.png",
+                "created_at": "2025-01-24T08:37:26.081Z",
+                "cooked": "<p>You should answer the third question every time the site reloads</p>",
+                "post_number": 26,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T08:37:26.081Z",
+                "reply_count": 1,
+                "reply_to_post_number": 25,
+                "quote_count": 0,
+                "incoming_link_count": 10,
+                "reads": 250,
+                "readers_count": 249,
+                "score": 119.8,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Sakthivel S",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "",
+                "reply_to_user": {
+                    "id": 14644,
+                    "username": "22f3000445",
+                    "name": "Varad Rajadhyax ",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/{size}/96290_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "count": 1,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 17862,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/26",
+                "user_cakedate": "2023-06-03",
+                "user_birthdate": "1904-08-13",
+                "reactions": [
+                    {
+                        "id": "+1",
+                        "type": "emoji",
+                        "count": 1
+                    }
+                ],
+                "current_user_reaction": null,
+                "reaction_users_count": 1,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 584453,
+                "name": "Varad Rajadhyax ",
+                "username": "22f3000445",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/{size}/96290_2.png",
+                "created_at": "2025-01-24T10:06:51.736Z",
+                "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/c/ac8e969c93aa57f9b61d8e5a90ddf2a6174220e5.png\" data-download-href=\"/uploads/short-url/oCvCnqBwNsHP0Tbr6llmMz6hWex.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/c/ac8e969c93aa57f9b61d8e5a90ddf2a6174220e5.png\" alt=\"image\" data-base62-sha1=\"oCvCnqBwNsHP0Tbr6llmMz6hWex\" width=\"690\" height=\"289\" data-dominant-color=\"27292D\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1122\u00d7471 13.9 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>For question no.6, there was some pre-written code there, right?<br>\nI am not able to see it now.</p>",
+                "post_number": 27,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T10:06:51.736Z",
+                "reply_count": 2,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 6,
+                "reads": 252,
+                "readers_count": 251,
+                "score": 90.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Varad Rajadhyax ",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "",
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 14644,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/27",
+                "user_cakedate": "2022-09-07",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 584459,
+                "name": "Varad Rajadhyax ",
+                "username": "22f3000445",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/{size}/96290_2.png",
+                "created_at": "2025-01-24T10:17:59.703Z",
+                "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/0/4014d114b8ab5a993183871727062efe6a839400.png\" data-download-href=\"/uploads/short-url/98T9MjGc66m8Hwyd7nKfihdZMac.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/4/0/4014d114b8ab5a993183871727062efe6a839400.png\" alt=\"image\" data-base62-sha1=\"98T9MjGc66m8Hwyd7nKfihdZMac\" width=\"690\" height=\"99\" data-dominant-color=\"272929\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1017\u00d7146 6.62 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>I am getting insufficient_quota message for the 2nd question</p>",
+                "post_number": 28,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-24T10:17:59.703Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 247,
+                "readers_count": 246,
+                "score": 54.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Varad Rajadhyax ",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "",
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 14644,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/28",
+                "user_cakedate": "2022-09-07",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 586911,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-27T22:32:35.315Z",
+                "cooked": "<aside class=\"quote group-ds-students\" data-username=\"21f3002277\" data-post=\"23\" data-topic=\"163247\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002277/48/12741_2.png\" class=\"avatar\"> 21f3002277:</div>\n<blockquote>\n<p>The image_url.url must be the base64 data URL of the image</p>\n</blockquote>\n</aside>\n<p>I tried downloading image for your dataset it is 2.36 KB in size.<br>\nUsing base64 encoded string from <code>image_url.url</code> in your code when decoded comes out to be 8.18 KB, when I encoded image from your dataset and decoded it was 2.36 KB.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/a/aa81c404ee3eb793693a5bc6406886bd079e1635.png\" data-download-href=\"/uploads/short-url/oknbSV792DrYiCsWVmZx3riC6ON.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/a/aa81c404ee3eb793693a5bc6406886bd079e1635_2_690x347.png\" alt=\"image\" data-base62-sha1=\"oknbSV792DrYiCsWVmZx3riC6ON\" width=\"690\" height=\"347\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/a/aa81c404ee3eb793693a5bc6406886bd079e1635_2_690x347.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/a/aa81c404ee3eb793693a5bc6406886bd079e1635_2_1035x520.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/a/a/aa81c404ee3eb793693a5bc6406886bd079e1635_2_1380x694.png 2x\" data-dominant-color=\"EFF0E7\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1518\u00d7765 95.5 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Hints : check if encoding is correct.</p>",
+                "post_number": 29,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-27T22:32:35.315Z",
+                "reply_count": 2,
+                "reply_to_post_number": 23,
+                "quote_count": 1,
+                "incoming_link_count": 1,
+                "reads": 242,
+                "readers_count": 241,
+                "score": 63.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/29",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 586942,
+                "name": "Abhay Sharma",
+                "username": "sharma_abhay",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sharma_abhay/{size}/66745_2.png",
+                "created_at": "2025-01-28T04:11:34.779Z",
+                "cooked": "<p>Is it required to give SCT for the ROE of this course?</p>\n<p>Thank you.</p>",
+                "post_number": 30,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T04:11:34.779Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 220,
+                "readers_count": 219,
+                "score": 49.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Abhay Sharma",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": false,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 29716,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/30",
+                "user_cakedate": "2024-04-05",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587025,
+                "name": "Carlton D'Silva",
+                "username": "carlton",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                "created_at": "2025-01-28T06:51:33.648Z",
+                "cooked": "<p>SCT is not required for ROE. ROE is not proctored.</p>\n<p>Kind regards</p>",
+                "post_number": 31,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T06:51:33.648Z",
+                "reply_count": 0,
+                "reply_to_post_number": 30,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 223,
+                "readers_count": 222,
+                "score": 54.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Carlton D'Silva",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": false,
+                "user_title": "Regular",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 29716,
+                    "username": "sharma_abhay",
+                    "name": "Abhay Sharma",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sharma_abhay/{size}/66745_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 16094,
+                "hidden": false,
+                "trust_level": 3,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/31",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587062,
+                "name": "K Hari Prasath",
+                "username": "23f2003853",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003853/{size}/67184_2.png",
+                "created_at": "2025-01-28T07:44:51.739Z",
+                "cooked": "<p>This is regarding Question 2 I tried to find number of tokens for the message. Using chatgpt identified the followings are valid English words for the given text in the question <strong>D</strong> <strong>m</strong> <strong>Ay</strong> <strong>E r u y Vy</strong> <strong>V Ky</strong> <strong>P</strong> <strong>c</strong>. then, checked with <a href=\"https://platform.openai.com/tokenizer\" rel=\"noopener nofollow ugc\">https://platform.openai.com/tokenizer</a>. whatever number given by it seems to wrong.<br>\n<a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> could you inform me where I did mistake</p>",
+                "post_number": 32,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T07:44:51.739Z",
+                "reply_count": 2,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 4,
+                "reads": 224,
+                "readers_count": 223,
+                "score": 74.8,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "K Hari Prasath",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "link_counts": [
+                    {
+                        "url": "https://platform.openai.com/tokenizer",
+                        "internal": false,
+                        "reflection": false,
+                        "clicks": 4
+                    }
+                ],
+                "read": false,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 21529,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/32",
+                "user_cakedate": "2023-09-18",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587070,
+                "name": "Carlton D'Silva",
+                "username": "carlton",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                "created_at": "2025-01-28T07:59:50.162Z",
+                "cooked": "<p><a class=\"mention\" href=\"/u/23f2003853\">@23f2003853</a> You have to find the input tokens from the json response you receive from the proxy.</p>",
+                "post_number": 33,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T07:59:50.162Z",
+                "reply_count": 2,
+                "reply_to_post_number": 32,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 221,
+                "readers_count": 220,
+                "score": 79.2,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Carlton D'Silva",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": false,
+                "user_title": "Regular",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 21529,
+                    "username": "23f2003853",
+                    "name": "K Hari Prasath",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003853/{size}/67184_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "count": 1,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 16094,
+                "hidden": false,
+                "trust_level": 3,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/33",
+                "user_cakedate": "2023-01-25",
+                "reactions": [
+                    {
+                        "id": "heart",
+                        "type": "emoji",
+                        "count": 1
+                    }
+                ],
+                "current_user_reaction": null,
+                "reaction_users_count": 1,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587175,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-28T11:38:08.793Z",
+                "cooked": "<p>Hi VIKASH,</p>\n<p>This problem must be because CORS not enabled or you are running your application inside wsl, if you using WSL then you would need to identify ipaddress of WSL and use it in place of <code>127.0.0.1</code></p>\n<p>kind regards</p>",
+                "post_number": 34,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T11:38:08.793Z",
+                "reply_count": 0,
+                "reply_to_post_number": 24,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 219,
+                "readers_count": 218,
+                "score": 53.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 11755,
+                    "username": "21f3002277",
+                    "name": "VIKASH PRASAD",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002277/{size}/12741_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/34",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587180,
+                "name": "K Hari Prasath",
+                "username": "23f2003853",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003853/{size}/67184_2.png",
+                "created_at": "2025-01-28T11:48:12.076Z",
+                "cooked": "<p>Sir, from where can I  learn to locate the json response</p>",
+                "post_number": 35,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T11:48:32.774Z",
+                "reply_count": 1,
+                "reply_to_post_number": 33,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 211,
+                "readers_count": 210,
+                "score": 47.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "K Hari Prasath",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": null,
+                "reply_to_user": {
+                    "id": 16094,
+                    "username": "carlton",
+                    "name": "Carlton D'Silva",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 21529,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/35",
+                "user_cakedate": "2023-09-18",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587188,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-28T12:05:37.192Z",
+                "cooked": "<p>Hi <a class=\"mention\" href=\"/u/23f2003853\">@23f2003853</a> ,</p>\n<p>You can learn from <a href=\"https://realpython.com/python-requests/\" rel=\"noopener nofollow ugc\">Python\u2019s Requests Library (Guide) \u2013 Real Python</a> tutorial about how to use requests module and see responses.</p>\n<p>kind regards</p>",
+                "post_number": 36,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T12:05:37.192Z",
+                "reply_count": 1,
+                "reply_to_post_number": 35,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 211,
+                "readers_count": 210,
+                "score": 47.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "link_counts": [
+                    {
+                        "url": "https://realpython.com/python-requests/",
+                        "internal": false,
+                        "reflection": false,
+                        "title": "Python's Requests Library (Guide) \u2013 Real Python",
+                        "clicks": 4
+                    }
+                ],
+                "read": true,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 21529,
+                    "username": "23f2003853",
+                    "name": "K Hari Prasath",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003853/{size}/67184_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/36",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587193,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-28T12:17:58.201Z",
+                "cooked": "<aside class=\"quote group-ds-students\" data-username=\"22f3000445\" data-post=\"28\" data-topic=\"163247\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/48/96290_2.png\" class=\"avatar\"> 22f3000445:</div>\n<blockquote>\n<p>I am getting insufficient_quota message for the 2nd question</p>\n</blockquote>\n</aside>\n<p>Which url are you using to send request to openai.</p>",
+                "post_number": 37,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T12:17:58.201Z",
+                "reply_count": 0,
+                "reply_to_post_number": 28,
+                "quote_count": 1,
+                "incoming_link_count": 0,
+                "reads": 210,
+                "readers_count": 209,
+                "score": 41.8,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/37",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587196,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-28T12:20:15.821Z",
+                "cooked": "<aside class=\"quote group-ds-students\" data-username=\"22f3000445\" data-post=\"27\" data-topic=\"163247\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000445/48/96290_2.png\" class=\"avatar\"> 22f3000445:</div>\n<blockquote>\n<p>For question no.6, there was some pre-written code there, right?</p>\n</blockquote>\n</aside>\n<p>pre-written code is not required for question 6.</p>",
+                "post_number": 38,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T12:20:15.821Z",
+                "reply_count": 0,
+                "reply_to_post_number": 27,
+                "quote_count": 1,
+                "incoming_link_count": 0,
+                "reads": 213,
+                "readers_count": 212,
+                "score": 42.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/38",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587325,
+                "name": "Divyasree",
+                "username": "Divya1",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/divya1/{size}/67525_2.png",
+                "created_at": "2025-01-28T18:05:18.879Z",
+                "cooked": "<p>In the 6th question ,as I open the graded assignment all the time the new question is generated (NUMERICAL DATA) and the previous answer shows as incorrect answer</p>\n<p>My doubt is that should I again and again answer the same quetion(6) all the time until the due passes?<br>\nIs there any alternative ways to look after this problem?</p>",
+                "post_number": 39,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-28T18:05:18.879Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 0,
+                "reads": 218,
+                "readers_count": 217,
+                "score": 48.6,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Divyasree",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 33695,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/39",
+                "user_cakedate": "2024-06-09",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587371,
+                "name": "Saniya Naaz",
+                "username": "23f2002592",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2002592/{size}/66753_2.png",
+                "created_at": "2025-01-29T04:19:54.016Z",
+                "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/e/b/ebc5f88e712a270b0763135c5a220d2fcd690c71.png\" data-download-href=\"/uploads/short-url/xDKm5CY60C8vBvcICfa14JNRaJr.png?dl=1\" title=\"Screenshot 2025-01-29 094832\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/b/ebc5f88e712a270b0763135c5a220d2fcd690c71_2_690x256.png\" alt=\"Screenshot 2025-01-29 094832\" data-base62-sha1=\"xDKm5CY60C8vBvcICfa14JNRaJr\" width=\"690\" height=\"256\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/b/ebc5f88e712a270b0763135c5a220d2fcd690c71_2_690x256.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/b/ebc5f88e712a270b0763135c5a220d2fcd690c71_2_1035x384.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/e/b/ebc5f88e712a270b0763135c5a220d2fcd690c71_2_1380x512.png 2x\" data-dominant-color=\"2B2B2A\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">Screenshot 2025-01-29 094832</span><span class=\"informations\">1770\u00d7659 35.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>how to solve???</p>",
+                "post_number": 40,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-29T04:19:54.016Z",
+                "reply_count": 1,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 230,
+                "readers_count": 229,
+                "score": 61.0,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Saniya Naaz",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": true,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 18394,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/40",
+                "user_cakedate": "2023-06-05",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587379,
+                "name": "Saniya Naaz",
+                "username": "23f2002592",
+                "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2002592/{size}/66753_2.png",
+                "created_at": "2025-01-29T04:49:26.483Z",
+                "cooked": "<p>getting quota full message for 7th question. How to get the answers then?</p>",
+                "post_number": 41,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-29T04:49:26.483Z",
+                "reply_count": 0,
+                "reply_to_post_number": null,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 229,
+                "readers_count": 228,
+                "score": 55.8,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Saniya Naaz",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": false,
+                "user_title": null,
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "user_id": 18394,
+                "hidden": false,
+                "trust_level": 1,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/41",
+                "user_cakedate": "2023-06-05",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            },
+            {
+                "id": 587575,
+                "name": "Jivraj Singh Shekhawat",
+                "username": "Jivraj",
+                "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                "created_at": "2025-01-29T15:28:56.065Z",
+                "cooked": "<p>Hi <a class=\"mention\" href=\"/u/divya1\">@Divya1</a> ,</p>\n<p>Question 6 requires to write a generic code for finding most similar pair. If your code is doing so, pls mention exact steps that you have used to arrive at answer.</p>",
+                "post_number": 42,
+                "post_type": 1,
+                "posts_count": 149,
+                "updated_at": "2025-01-29T15:28:56.065Z",
+                "reply_count": 0,
+                "reply_to_post_number": 39,
+                "quote_count": 0,
+                "incoming_link_count": 2,
+                "reads": 224,
+                "readers_count": 223,
+                "score": 54.8,
+                "yours": false,
+                "topic_id": 163247,
+                "topic_slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+                "display_username": "Jivraj Singh Shekhawat",
+                "primary_group_name": "ds-students",
+                "flair_name": "ds-students",
+                "flair_url": null,
+                "flair_bg_color": "",
+                "flair_color": "",
+                "flair_group_id": 294,
+                "badges_granted": [],
+                "version": 1,
+                "can_edit": false,
+                "can_delete": false,
+                "can_recover": false,
+                "can_see_hidden_post": false,
+                "can_wiki": false,
+                "read": false,
+                "user_title": "Course TA",
+                "title_is_group": false,
+                "reply_to_user": {
+                    "id": 33695,
+                    "username": "Divya1",
+                    "name": "Divyasree",
+                    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/divya1/{size}/67525_2.png"
+                },
+                "bookmarked": false,
+                "actions_summary": [
+                    {
+                        "id": 2,
+                        "can_act": true
+                    },
+                    {
+                        "id": 6,
+                        "can_act": true
+                    },
+                    {
+                        "id": 3,
+                        "can_act": true
+                    },
+                    {
+                        "id": 4,
+                        "can_act": true
+                    },
+                    {
+                        "id": 8,
+                        "can_act": true
+                    },
+                    {
+                        "id": 10,
+                        "can_act": true
+                    },
+                    {
+                        "id": 7,
+                        "can_act": true
+                    }
+                ],
+                "moderator": false,
+                "admin": false,
+                "staff": false,
+                "group_moderator": true,
+                "user_id": 15651,
+                "hidden": false,
+                "trust_level": 2,
+                "deleted_at": null,
+                "user_deleted": false,
+                "edit_reason": null,
+                "can_view_edit_history": true,
+                "wiki": false,
+                "post_url": "/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/42",
+                "user_cakedate": "2023-01-25",
+                "reactions": [],
+                "current_user_reaction": null,
+                "reaction_users_count": 0,
+                "current_user_used_main_reaction": false,
+                "can_accept_answer": false,
+                "can_unaccept_answer": false,
+                "accepted_answer": false,
+                "topic_accepted_answer": null
+            }
+        ]
+    },
+    "suggested_topics": [
+        {
+            "id": 176077,
+            "title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+            "fancy_title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+            "slug": "project1-virtual-ta-discussion-thread-tds-may-2025",
+            "posts_count": 530,
+            "reply_count": 353,
+            "highest_post_number": 548,
+            "image_url": null,
+            "created_at": "2025-05-22T21:36:32.840Z",
+            "last_posted_at": "2025-06-18T10:06:49.521Z",
+            "bumped": true,
+            "bumped_at": "2025-06-18T10:06:49.521Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 141,
+            "unread": 0,
+            "new_posts": 407,
+            "unread_posts": 407,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 3,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "term2-2025",
+                "tds-project-1"
+            ],
+            "tags_descriptions": {},
+            "like_count": 166,
+            "views": 3296,
+            "category_id": 34,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 15651,
+                        "username": "Jivraj",
+                        "name": "Jivraj Singh Shekhawat",
+                        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 2
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 16094,
+                        "username": "carlton",
+                        "name": "Carlton D'Silva",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 3
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 24955,
+                        "username": "vanshbordia",
+                        "name": "Vansh Bordia",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/vanshbordia/{size}/70391_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 17206,
+                        "username": "23f1002231",
+                        "name": "YashSinha",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002231/{size}/78871_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 24308,
+                        "username": "23f3002742",
+                        "name": "Harsh",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f3002742/{size}/83175_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 178881,
+            "title": "GA4 - Data Sourcing - Discussion Thread [TDS May 2025]",
+            "fancy_title": "GA4 - Data Sourcing - Discussion Thread [TDS May 2025]",
+            "slug": "ga4-data-sourcing-discussion-thread-tds-may-2025",
+            "posts_count": 5,
+            "reply_count": 0,
+            "highest_post_number": 5,
+            "image_url": null,
+            "created_at": "2025-06-11T16:23:45.872Z",
+            "last_posted_at": "2025-06-18T03:27:25.965Z",
+            "bumped": true,
+            "bumped_at": "2025-06-18T03:27:25.965Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 3,
+            "unread": 0,
+            "new_posts": 2,
+            "unread_posts": 2,
+            "pinned": true,
+            "unpinned": null,
+            "excerpt": "Please post any questions related to Graded Assignment 4 - Data Sourcing. \nDeadline: Sunday, June 22, 2025 6:29 PM (UTC) \n@carlton @Jivraj @HritikRoshan_HRM",
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 3,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "term2-2025",
+                "graded-assignment",
+                "week-4"
+            ],
+            "tags_descriptions": {},
+            "like_count": 3,
+            "views": 333,
+            "category_id": 34,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 9419,
+                        "username": "s.anand",
+                        "name": "Anand S",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+                        "primary_group_name": "faculty",
+                        "flair_name": "faculty",
+                        "flair_url": "chalkboard-user",
+                        "flair_bg_color": "f2c26e",
+                        "flair_color": "000",
+                        "flair_group_id": 54,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 16094,
+                        "username": "carlton",
+                        "name": "Carlton D'Silva",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 3
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 16768,
+                        "username": "22f3002843",
+                        "name": "Devansh Gupta ",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002843/{size}/69451_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 11966,
+                        "username": "22f1000662",
+                        "name": "Siddhanth Muragundi ",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f1000662/{size}/12463_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 32704,
+                        "username": "Vakula",
+                        "name": "Vakula Surendar",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/vakula/{size}/67226_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 175592,
+            "title": "GA3 - Large Language Models - Discussion Thread [TDS May 2025]",
+            "fancy_title": "GA3 - Large Language Models - Discussion Thread [TDS May 2025]",
+            "slug": "ga3-large-language-models-discussion-thread-tds-may-2025",
+            "posts_count": 221,
+            "reply_count": 167,
+            "highest_post_number": 231,
+            "image_url": null,
+            "created_at": "2025-05-20T02:15:13.702Z",
+            "last_posted_at": "2025-06-15T11:42:51.100Z",
+            "bumped": true,
+            "bumped_at": "2025-06-15T11:42:51.100Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 227,
+            "unread": 0,
+            "new_posts": 4,
+            "unread_posts": 4,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 3,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "diploma-level",
+                "term2-2025",
+                "graded-assignment"
+            ],
+            "tags_descriptions": {},
+            "like_count": 65,
+            "views": 1065,
+            "category_id": 34,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 16094,
+                        "username": "carlton",
+                        "name": "Carlton D'Silva",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 3
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 7742,
+                        "username": "21f3000745",
+                        "name": "Tanya kamboj",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000745/{size}/638_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 31631,
+                        "username": "Karvy",
+                        "name": "Karvy Singh",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/karvy/{size}/67600_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 31928,
+                        "username": "Sahil_singh",
+                        "name": "Sahil kumar",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sahil_singh/{size}/110463_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 43586,
+                        "username": "OMR_17",
+                        "name": "OM Rajesh Bhambere",
+                        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/o/ccd318/{size}.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 173525,
+            "title": "GA2 - Deployment Tools - Discussion Thread [TDS May 2025]",
+            "fancy_title": "GA2 - Deployment Tools - Discussion Thread [TDS May 2025]",
+            "slug": "ga2-deployment-tools-discussion-thread-tds-may-2025",
+            "posts_count": 128,
+            "reply_count": 60,
+            "highest_post_number": 135,
+            "image_url": null,
+            "created_at": "2025-05-01T11:41:51.750Z",
+            "last_posted_at": "2025-06-02T20:33:50.578Z",
+            "bumped": true,
+            "bumped_at": "2025-06-02T20:33:50.578Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 73,
+            "unread": 0,
+            "new_posts": 62,
+            "unread_posts": 62,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 3,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "term2-2025",
+                "graded-assignment"
+            ],
+            "tags_descriptions": {},
+            "like_count": 36,
+            "views": 1129,
+            "category_id": 34,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 9419,
+                        "username": "s.anand",
+                        "name": "Anand S",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+                        "primary_group_name": "faculty",
+                        "flair_name": "faculty",
+                        "flair_url": "chalkboard-user",
+                        "flair_bg_color": "f2c26e",
+                        "flair_color": "000",
+                        "flair_group_id": 54,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 12314,
+                        "username": "bhuvan",
+                        "name": "Bhuvan Krishna",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/bhuvan/{size}/121831_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 20160,
+                        "username": "SIDDHARTH_M",
+                        "name": "SIDDHARTH M",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/siddharth_m/{size}/66955_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 15651,
+                        "username": "Jivraj",
+                        "name": "Jivraj Singh Shekhawat",
+                        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 2
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 16594,
+                        "username": "22f3002798",
+                        "name": "Varma Mudunuri",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002798/{size}/68573_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 173524,
+            "title": "GA1 - Development Tools - Discussion Thread [TDS May 2025]",
+            "fancy_title": "GA1 - Development Tools - Discussion Thread [TDS May 2025]",
+            "slug": "ga1-development-tools-discussion-thread-tds-may-2025",
+            "posts_count": 81,
+            "reply_count": 52,
+            "highest_post_number": 86,
+            "image_url": null,
+            "created_at": "2025-05-01T11:39:00.734Z",
+            "last_posted_at": "2025-05-31T18:44:32.559Z",
+            "bumped": true,
+            "bumped_at": "2025-05-31T18:44:32.559Z",
+            "archetype": "regular",
+            "unseen": false,
+            "last_read_post_number": 70,
+            "unread": 0,
+            "new_posts": 16,
+            "unread_posts": 16,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "notification_level": 3,
+            "bookmarked": false,
+            "liked": false,
+            "tags": [
+                "term2-2025",
+                "graded-assignment"
+            ],
+            "tags_descriptions": {},
+            "like_count": 25,
+            "views": 1258,
+            "category_id": 34,
+            "featured_link": null,
+            "has_accepted_answer": false,
+            "posters": [
+                {
+                    "extras": null,
+                    "description": "Original Poster",
+                    "user": {
+                        "id": 9419,
+                        "username": "s.anand",
+                        "name": "Anand S",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+                        "primary_group_name": "faculty",
+                        "flair_name": "faculty",
+                        "flair_url": "chalkboard-user",
+                        "flair_bg_color": "f2c26e",
+                        "flair_color": "000",
+                        "flair_group_id": 54,
+                        "trust_level": 4
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 22472,
+                        "username": "Advaith52",
+                        "name": "Advaith Sanil Kumar",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/advaith52/{size}/67172_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 16094,
+                        "username": "carlton",
+                        "name": "Carlton D'Silva",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 3
+                    }
+                },
+                {
+                    "extras": null,
+                    "description": "Frequent Poster",
+                    "user": {
+                        "id": 15658,
+                        "username": "HritikRoshan_HRM",
+                        "name": "HRITIK ROSHAN MAURYA",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/hritikroshan_hrm/{size}/66975_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                },
+                {
+                    "extras": "latest",
+                    "description": "Most Recent Poster",
+                    "user": {
+                        "id": 7234,
+                        "username": "21f3000813",
+                        "name": "Suraj mishra",
+                        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000813/{size}/12622_2.png",
+                        "primary_group_name": "ds-students",
+                        "flair_name": "ds-students",
+                        "flair_group_id": 294,
+                        "trust_level": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "id": 163247,
+    "related_topics": null
+}

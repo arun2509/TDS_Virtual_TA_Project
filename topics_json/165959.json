@@ -15,10 +15,10 @@
                 "reply_count": 0,
                 "reply_to_post_number": null,
                 "quote_count": 0,
-                "incoming_link_count": 629,
-                "reads": 493,
-                "readers_count": 492,
-                "score": 3212.8,
+                "incoming_link_count": 631,
+                "reads": 529,
+                "readers_count": 528,
+                "score": 3250.0,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -42,7 +42,14 @@
                         "internal": false,
                         "reflection": false,
                         "title": "Technical Assessment",
-                        "clicks": 29
+                        "clicks": 30
+                    },
+                    {
+                        "url": "https://discourse.onlinedegree.iitm.ac.in/t/project1-virtual-ta-discussion-thread-tds-may-2025/176077/364",
+                        "internal": true,
+                        "reflection": true,
+                        "title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+                        "clicks": 0
                     }
                 ],
                 "read": true,
@@ -117,9 +124,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 1,
-                "reads": 480,
-                "readers_count": 479,
-                "score": 95.8,
+                "reads": 513,
+                "readers_count": 512,
+                "score": 107.0,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -209,9 +216,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 18,
-                "reads": 469,
-                "readers_count": 468,
-                "score": 253.8,
+                "reads": 501,
+                "readers_count": 500,
+                "score": 264.6,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -306,9 +313,9 @@
                 "reply_to_post_number": 4,
                 "quote_count": 0,
                 "incoming_link_count": 1,
-                "reads": 429,
-                "readers_count": 428,
-                "score": 92.0,
+                "reads": 455,
+                "readers_count": 454,
+                "score": 100.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -402,9 +409,9 @@
                 "reply_to_post_number": 3,
                 "quote_count": 0,
                 "incoming_link_count": 7,
-                "reads": 417,
-                "readers_count": 416,
-                "score": 165.0,
+                "reads": 445,
+                "readers_count": 444,
+                "score": 173.2,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -422,7 +429,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "Course_faculty",
                 "title_is_group": true,
                 "reply_to_user": {
@@ -506,9 +513,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 8,
-                "reads": 399,
-                "readers_count": 398,
-                "score": 152.0,
+                "reads": 425,
+                "readers_count": 424,
+                "score": 159.2,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -526,7 +533,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "",
                 "bookmarked": false,
                 "actions_summary": [
@@ -604,9 +611,9 @@
                 "reply_to_post_number": 7,
                 "quote_count": 0,
                 "incoming_link_count": 5,
-                "reads": 378,
-                "readers_count": 377,
-                "score": 112.8,
+                "reads": 401,
+                "readers_count": 400,
+                "score": 119.6,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -624,7 +631,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "Course_faculty",
                 "title_is_group": true,
                 "reply_to_user": {
@@ -708,9 +715,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 4,
-                "reads": 366,
-                "readers_count": 365,
-                "score": 95.2,
+                "reads": 388,
+                "readers_count": 387,
+                "score": 102.0,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -728,7 +735,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -798,9 +805,9 @@
                 "reply_to_post_number": 9,
                 "quote_count": 0,
                 "incoming_link_count": 1,
-                "reads": 339,
-                "readers_count": 338,
-                "score": 74.8,
+                "reads": 358,
+                "readers_count": 357,
+                "score": 81.2,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -818,7 +825,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "reply_to_user": {
                     "id": 11755,
@@ -894,9 +901,9 @@
                 "reply_to_post_number": 11,
                 "quote_count": 0,
                 "incoming_link_count": 1,
-                "reads": 337,
-                "readers_count": 336,
-                "score": 69.2,
+                "reads": 354,
+                "readers_count": 353,
+                "score": 75.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -914,7 +921,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "reply_to_user": {
                     "id": 16397,
@@ -990,9 +997,9 @@
                 "reply_to_post_number": 6,
                 "quote_count": 0,
                 "incoming_link_count": 2,
-                "reads": 331,
-                "readers_count": 330,
-                "score": 78.8,
+                "reads": 349,
+                "readers_count": 348,
+                "score": 84.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1010,7 +1017,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "reply_to_user": {
                     "id": 9419,
@@ -1086,9 +1093,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 4,
-                "reads": 318,
-                "readers_count": 317,
-                "score": 91.0,
+                "reads": 337,
+                "readers_count": 336,
+                "score": 96.8,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1106,7 +1113,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -1176,9 +1183,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 1,
-                "reads": 327,
-                "readers_count": 326,
-                "score": 87.2,
+                "reads": 348,
+                "readers_count": 347,
+                "score": 94.0,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1196,7 +1203,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -1266,9 +1273,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 8,
-                "reads": 306,
-                "readers_count": 305,
-                "score": 103.6,
+                "reads": 327,
+                "readers_count": 326,
+                "score": 109.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1286,7 +1293,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "",
                 "bookmarked": false,
                 "actions_summary": [
@@ -1357,9 +1364,9 @@
                 "reply_to_post_number": 16,
                 "quote_count": 0,
                 "incoming_link_count": 2,
-                "reads": 302,
-                "readers_count": 301,
-                "score": 172.8,
+                "reads": 322,
+                "readers_count": 321,
+                "score": 178.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1377,7 +1384,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "Course_faculty",
                 "title_is_group": true,
                 "reply_to_user": {
@@ -1461,9 +1468,9 @@
                 "reply_to_post_number": 7,
                 "quote_count": 0,
                 "incoming_link_count": 3,
-                "reads": 294,
-                "readers_count": 293,
-                "score": 86.2,
+                "reads": 314,
+                "readers_count": 313,
+                "score": 91.8,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1481,7 +1488,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "reply_to_user": {
                     "id": 17862,
@@ -1564,9 +1571,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 3,
-                "reads": 317,
-                "readers_count": 316,
-                "score": 105.2,
+                "reads": 337,
+                "readers_count": 336,
+                "score": 111.6,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1584,7 +1591,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -1661,9 +1668,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 3,
-                "reads": 309,
-                "readers_count": 308,
-                "score": 119.2,
+                "reads": 329,
+                "readers_count": 328,
+                "score": 125.2,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1681,7 +1688,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -1758,9 +1765,9 @@
                 "reply_to_post_number": null,
                 "quote_count": 0,
                 "incoming_link_count": 0,
-                "reads": 304,
-                "readers_count": 303,
-                "score": 63.2,
+                "reads": 325,
+                "readers_count": 324,
+                "score": 69.4,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1778,7 +1785,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": null,
                 "bookmarked": false,
                 "actions_summary": [
@@ -1848,9 +1855,9 @@
                 "reply_to_post_number": 21,
                 "quote_count": 0,
                 "incoming_link_count": 0,
-                "reads": 292,
-                "readers_count": 291,
-                "score": 55.8,
+                "reads": 313,
+                "readers_count": 312,
+                "score": 62.0,
                 "yours": false,
                 "topic_id": 165959,
                 "topic_slug": "ga4-data-sourcing-discussion-thread-tds-jan-2025",
@@ -1868,7 +1875,7 @@
                 "can_recover": false,
                 "can_see_hidden_post": false,
                 "can_wiki": false,
-                "read": false,
+                "read": true,
                 "user_title": "Course_faculty",
                 "title_is_group": true,
                 "reply_to_user": {
@@ -2307,71 +2314,71 @@
     "timeline_lookup": [
         [
             1,
-            133
+            138
+        ],
+        [
+            3,
+            137
         ],
         [
             5,
-            132
+            136
         ],
         [
             13,
-            131
+            135
         ],
         [
-            17,
-            130
+            19,
+            134
         ],
         [
-            25,
-            129
+            29,
+            133
         ],
         [
-            41,
-            128
+            43,
+            132
         ],
         [
             81,
-            129
+            133
         ],
         [
             83,
+            132
+        ],
+        [
+            91,
+            131
+        ],
+        [
+            133,
+            130
+        ],
+        [
+            179,
+            129
+        ],
+        [
+            351,
             128
         ],
         [
-            87,
+            353,
             127
         ],
         [
-            115,
-            126
-        ],
-        [
-            165,
-            125
-        ],
-        [
-            261,
-            124
-        ],
-        [
-            353,
-            123
-        ],
-        [
-            357,
-            122
-        ],
-        [
             359,
-            116
+            120
         ],
         [
-            363,
-            115
+            367,
+            119
         ],
         [
             370,
-            110
+            114
         ]
     ],
     "tags": [
@@ -2386,7 +2393,7 @@
     "fancy_title": "GA4 - Data Sourcing - Discussion Thread [TDS Jan 2025]",
     "posts_count": 370,
     "created_at": "2025-01-31T16:13:36.376Z",
-    "views": 1410,
+    "views": 1523,
     "reply_count": 271,
     "like_count": 81,
     "last_posted_at": "2025-02-24T05:46:12.726Z",
@@ -2414,8 +2421,8 @@
     "pinned": false,
     "current_post_number": 1,
     "highest_post_number": 392,
-    "last_read_post_number": 5,
-    "last_read_post_id": 588867,
+    "last_read_post_number": 392,
+    "last_read_post_id": 598870,
     "deleted_by": null,
     "actions_summary": [
         {
@@ -2446,7 +2453,7 @@
     "chunk_size": 20,
     "bookmarked": false,
     "topic_timer": null,
-    "message_bus_last_id": 34,
+    "message_bus_last_id": 48,
     "participant_count": 151,
     "show_read_indicator": false,
     "thumbnails": null,
@@ -2845,7 +2852,7 @@
                 "internal": false,
                 "attachment": false,
                 "reflection": false,
-                "clicks": 29,
+                "clicks": 30,
                 "user_id": 9419,
                 "domain": "exam.sanand.workers.dev",
                 "root_domain": "sanand.workers.dev"
